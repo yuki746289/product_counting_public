@@ -1,0 +1,17 @@
+0				!最初から計算
+0				!可視化しない
+2d-5	1d0	1d-3	1d-3	!dt, tmax, tsv, ttmp
+1	1	1		!x,y,z方向の格子間間隔を決める変数
+1d0	1d0			!v0,x0
+gfilem6
+1				!index番号の数
+	1			!index番号
+	1d-2			!1/Re(Re=1000)
+0				!1/We
+1
+	1			!index番号
+	1d3			!1/Ma
+0				!1/Fr
+0				!1/Sc
+0				!1/Pr
+0				!1/Nu
